@@ -1,0 +1,204 @@
+body {
+    background-image: url('../img/bg1.jpg');
+    background-size: cover;
+}
+
+
+.mainform{
+    background: white;
+    background-size: 100% 100%;
+}
+
+.main_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+
+    padding: 30px 0;
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.main_form h2 {
+    color: #01a676;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+.sertif {
+    color: blue;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.blue-border {
+    margin: 15px 20px 15px 20px;
+    border: 2px solid #0299ff;
+    padding: 10px;
+    max-width: 700px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+
+.main_form input {
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 3px;
+    border: 2px solid #e9d7dc;
+    max-width: 300px;
+    width: 100%;
+}
+.main_form textarea {
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 3px;
+    border: 2px solid #e9d7dc;
+    max-width: 300px;
+    width: 100%;
+    height: 100px;
+}
+.main_form label {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.main_form button {
+    padding: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 4px 15px 0 rgba(129, 150, 160, 0.45);
+    border-radius: 5px;
+    background-position: 1.35em .94em;
+    background-size: 1em;
+    background-repeat: no-repeat;
+    transition: all .15s ease-in-out;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 260px;
+    margin-bottom: 40px;
+}
+
+
+
+.price_red {
+    font-weight: bold;
+    color: red;
+}
+
+.timelimit,
+.additional {
+    font-size: 22px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.timelimit b {
+    display: inline-block;
+    margin-top: -2px;
+    color: red;
+    vertical-align: middle;
+    background-position-y: 14px;
+    font-size: 26px;
+}
+
+.blue-link {
+    color: #2584f2;
+}
+
+.blue-block {
+    background: #D1E7FF;
+    border: 2px solid #0158BA;
+    box-sizing: border-box;
+    padding: 30px 14px;
+}
+
+.blue-border {
+    margin: 15px 20px 15px 20px;
+    border: 2px solid #0299ff;
+    padding: 10px !important;
+    max-width: 700px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: center !important;
+}
+
+@media only screen and (max-width: 321px) {
+    .main_form input {
+        max-width: 270px;
+        font-size: 18px;
+    }
+    .main_form button {
+        width: 240px;
+    }
+}
+
+.main_form h2 {
+    color: black;
+    font-weight: bold;
+}
+
+.main_form p {
+    padding-bottom: 10px !important;
+}
+
+.pulse-button {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    border: none;
+    box-shadow: 0 0 0 0 #8ad6e5;
+    border-radius: 50%;
+    background-color: #62bb76;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 999;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    -webkit-animation: pulse 2.25s infinite cubic-bezier(0.16, 0, 0, 1);
+    -moz-animation: pulse 2.25s infinite cubic-bezier(0.16, 0, 0, 1);
+    -ms-animation: pulse 2.25s infinite cubic-bezier(0.16, 0, 0, 1);
+    animation: pulse 2.25s infinite cubic-bezier(0.16, 0, 0, 1);
+}
+
+
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 33px rgba(52, 187, 112, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 33px rgba(52, 187, 112, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 33px rgba(52, 187, 112, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 33px
+rgba(52, 187, 112, 0);}}
+
+.pulse-button:hover
+{
+  background-color: #5496a3;
+  -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+}
+
+.select{
+    font-size: 18px;
+    border-radius: 3px;
+    border: 2px solid #e9d7dc;
+    max-width: 300px;
+    width: 100%;
+    height: 60px;
+    background: white;
+}
+
+.foot{
+    background: url("../img/bgfooter2.jpg");
+    background-size: cover
+}
